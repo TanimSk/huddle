@@ -1,0 +1,144 @@
+@media screen and (max-width:375px) {
+    .hero {
+        height: 97vh;
+        margin-bottom: 0%;
+        width: 100%;
+        background-image: url(../assets/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        padding-top: 3vh;
+    }
+
+    .hero-content {
+        height: 100vh;
+        width: 90%;
+    }
+
+    .navbar {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 20px;
+    }
+
+    .btn-nav {
+        height: max-content;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 40px;
+    }
+
+    .community-box {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px red solid; */
+        justify-content: space-around;
+    }
+
+    .com-box-text {
+        /* border: 2px red solid; */
+        width: 90%;
+        text-align: center;
+        font-size: 2rex;
+    }
+
+    .com-box-svg {
+        width: 90%;
+        /* border: 2px red solid; */
+    }
+
+    .box-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-one-text {        
+        text-align: center;
+        width: 90%;
+        padding-left: 0%;
+    }
+
+    .box-one-text h1 {
+        font-size: 1.5rem;
+    }
+    .box-one-text p {
+        font-size: 13px;
+    }
+
+    .box-one-svg {
+        width: 70%;
+        padding-right: 0%;
+    }
+
+    .box-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .box-two-text h1 {
+        font-size: 1.5rem;
+    }
+    .box-two-text p {
+        font-size: 13px;
+    }
+
+    .box-two-text {
+        text-align: center;
+        width: 90%;
+        padding-right: 0%;
+        /* border: 2px red solid; */
+    }
+
+    .box-two-svg {
+        width: 70%;
+        padding-left: 0%;
+        /* border: 2px red solid; */
+    }
+
+    .top-foot {
+        top: 12vh;
+        font-size: 1.2rex;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        width: 90%;
+    }
+
+    .bottom-foot-content {
+        width: 90%;
+        /* border: 2px red solid; */
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: white;
+    }
+
+    .footer-addr {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        /* border: 2px red solid; */
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
