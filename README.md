@@ -12,7 +12,7 @@ folder structure:
 │   ├── ... (other images)
 ├── index.html
 └── styles
-    ├── README.md
+    ├── responsive-style.css
     └── style.css
 ```
 
